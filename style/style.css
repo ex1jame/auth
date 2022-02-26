@@ -1,0 +1,145 @@
+@import "font.css";
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    border: none;
+    background: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+/*Basic conf*/
+.justify-between{
+    justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.row{
+    display: flex;
+}
+.col-6{
+    width: 50%;
+    position: relative;
+}
+/*auth component*/
+
+.auth{
+    height: 100vh;
+}
+.auth-bg{
+    height: 100vh;
+    background: url("../images/auth_bg.png") no-repeat center/cover;
+}
+.auth_title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #1a202c;
+    margin: 22px 0 5px;
+}
+.auth_subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #2d3748;
+}
+.auth_sizing{
+    display: block;
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+}
+.auth_label{
+    display: block;
+    margin-bottom: 11px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A5568;
+}
+.auth_inp{
+    margin: 11px 0;
+    border: 1px solid #e8e8e8;
+
+    color: #2d3748;
+    padding: 0 20px;
+}
+#pass{
+     color: #000000
+}
+#pass::placeholder{
+    color: #000000
+}
+.auth_inp::placeholder{
+    color: #2d3748;
+}
+.auth_form .d-flex{
+    margin: 17px 0 12px;
+}
+.auth_remember{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2d3748;
+    margin-left: 11px;
+}
+.auth_forgot{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2C5282;
+}
+.auth_login{
+    margin-top: 15px;
+    background: #04c45c;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 389px;
+}
+.auth_sign{
+    position: relative;
+    margin-top: 15px;
+    background: #2D3748;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 389px;
+}
+.auth_icon{
+    position: absolute;
+    top: 15px;
+    left: 79px;
+}
+.auth_acc{
+    position: absolute;
+    bottom: 50px;
+    left: 328px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #616161;
+}
+.auth_join{
+    color: #2C5282;
+}
+/*auth component*/
